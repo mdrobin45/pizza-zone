@@ -14,9 +14,10 @@ const NavBar = () =>
 
                     <div className='hidden md:block menu '>
                         <Link className='isActive mx-2 text-white p-3' to='/'>Home</Link>
-                        <Link className='mx-2 p-3 text-white' to='/'>About</Link>
-                        <Link className='mx-2 p-3 text-white' to='/'>Blog</Link>
-                        <Link className='mx-2 p-3 text-white' to='/'>Contact</Link>
+                        <Link className='mx-2 p-3 text-white' to='/about'>About</Link>
+                        <Link className='mx-2 p-3 text-white' to='/shop'>Shop</Link>
+                        <Link className='mx-2 p-3 text-white' to='/blog'>Blog</Link>
+                        <Link className='mx-2 p-3 text-white' to='/contact'>Contact</Link>
                     </div>
 
                     <button className={`hamburger block md:hidden ${toggle===true?'isActive':''}`} onClick={()=>setToggle(toggle===false?true:false)}>
@@ -25,17 +26,18 @@ const NavBar = () =>
                         <span></span>
                     </button>
                 </nav>
-
-                {/* Mobile menu */}
-                <nav style={{transform:`${toggle===false?'translateX(100%)':'translateX(0)'}`,transition:'0.4s'}} className='h-full absolute left-1/2 md:hidden mobileMenu top-14'>
-                    <div className='menu'>
-                        <Link className='isActive block mx-2 text-white p-3' to='/'>Home</Link>
-                        <Link className='mx-2 p-3 block text-white' to='/'>About</Link>
-                        <Link className='mx-2 p-3 block text-white' to='/'>Blog</Link>
-                        <Link className='mx-2 p-3 block text-white' to='/'>Contact</Link>
-                    </div>
-                </nav>
             </div>
+            
+            {/* Mobile menu */}
+            <nav style={{transform:`${toggle===false?'translateX(-100%)':'translateX(0)'}`,transition:'0.4s'}} className='h-full absolute md:hidden mobileMenu'>
+                <div className='menu'>
+                    <Link onClick={()=>setToggle(toggle===false?true:false)} className='isActive block border-b-2 border-gray-700 text-white p-3' to='/'>Home</Link>
+                    <Link onClick={()=>setToggle(toggle===false?true:false)} className='p-3 border-gray-700 border-b-2 block text-white' to='/about'>About</Link>
+                    <Link onClick={()=>setToggle(toggle===false?true:false)} className='p-3 border-gray-700 border-b-2 block text-white' to='/shop'>Shop</Link>
+                    <Link onClick={()=>setToggle(toggle===false?true:false)} className='p-3 border-gray-700 border-b-2 block text-white' to='/blog'>Blog</Link>
+                    <Link onClick={()=>setToggle(toggle===false?true:false)} className='p-3 border-gray-700 border-b-2 block text-white' to='/contact'>Contact</Link>
+                </div>
+            </nav>
         </div>
         
     );

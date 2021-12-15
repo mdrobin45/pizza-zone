@@ -17,7 +17,7 @@ const NavBar = () =>
                         <Link className='mx-2 p-3 text-white' to='/about'>About</Link>
                         <Link className='mx-2 p-3 text-white' to='/shop'>Shop</Link>
                         <Link className='mx-2 p-3 text-white' to='/blog'>Blog</Link>
-                        <Link className='mx-2 p-3 text-white' to='/contact'>Contact</Link>
+                        {/* <Link className='mx-2 p-3 text-white' to='/contact'>Contact</Link> */}
                     </div>
 
                     <button className={`hamburger block md:hidden ${toggle===true?'isActive':''}`} onClick={()=>setToggle(toggle===false?true:false)}>

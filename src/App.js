@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css'
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
@@ -10,7 +11,7 @@ import Shop from './Components/Pages/Shop/Shop';
 
 const App = () => {
   return (
-    <div>
+    <div className='App'>
       <BrowserRouter>
         <Header/>
         <Routes>

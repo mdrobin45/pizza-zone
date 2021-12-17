@@ -21,3 +21,16 @@ img.pizza5.absolute {
     bottom: -83px;
     right: -45px;
 }
+.nextArrow {
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    right: 15px;
+}
+.prevArrow {
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    left: 15px;
+    transform: rotate(180deg);
+}

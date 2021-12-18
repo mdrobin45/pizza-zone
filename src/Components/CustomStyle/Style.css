@@ -18,7 +18,7 @@ img.pizza3.absolute {
     bottom: -48px;
 }
 img.pizza5.absolute {
-    bottom: -83px;
+    bottom: -45px;
     right: -45px;
 }
 .nextArrow {
@@ -33,4 +33,18 @@ img.pizza5.absolute {
     cursor: pointer;
     left: 15px;
     transform: rotate(180deg);
+}
+@media screen and (max-width:576px) {
+    img.pizza6.absolute{
+        top: 21px;
+        right: -15px;
+    }
+    img.pizza3.absolute {
+        bottom: -12px;
+        left: 40px;
+    }
+    img.pizza5.absolute {
+        bottom: 0px;
+        right: 15px;
+    }
 }

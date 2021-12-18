@@ -36,15 +36,15 @@ const HomeBanner = () =>
 
                 {/* Slide-1 */}
                 <div>
-                    <div className='md:flex bg-black py-20 justify-around'>
+                    <div className='bg-black flex flex-col-reverse justify-around md:flex-row py-20'>
                         <div className='relative'>
-                            <img className='pizza1 w-10/12 md:w-full' src={pizza1} alt="Pizza" />
+                            <img className='pizza1 w-10/12 md:w-full m-auto' src={pizza1} alt="Pizza" />
                             <img className='pizza2 absolute' src={pizza2} alt="Pizza" />
-                            <img className='pizza3 absolute' src={pizza3} alt="Pizza" />
-                            <img className='pizza4 absolute hidden md:block' src={pizza4} alt="Pizza" />
-                            <img className='pizza5 absolute' src={pizza5} alt="Pizza" />
-                            <img className='pizza6 absolute' src={pizza6} alt="Pizza" />
-                            <img className='pizza7 absolute hidden md:block' src={pizza7} alt="Pizza" />
+                            <img className='pizza3 absolute w-1/4 md:w-1/3' src={pizza3} alt="Pizza" />
+                            <img className='pizza4 absolute invisible md:visible' src={pizza4} alt="Pizza" />
+                            <img className='pizza5 absolute w-1/4 md:w-1/3' src={pizza5} alt="Pizza" />
+                            <img className='pizza6 absolute w-1/3 md:w-1/3' src={pizza6} alt="Pizza" />
+                            <img className='pizza7 absolute invisible md:visible' src={pizza7} alt="Pizza" />
                         </div>
                         <div>
                             <h1 className='text-6xl text-center md:text-left md:text-9xl font-bold uppercase text-white'>Quality <span className='visible md:hidden'>F<span className='text-primary'>oo</span>ds</span></h1>

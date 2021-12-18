@@ -9,6 +9,10 @@ module.exports = {
       padding:'2rem'
     },
     extend: {
+      backgroundImage: {
+        orderStepTopBg:`url('/src/images/order-top.png')`,
+        orderStepBottomBg:`url('/src/images/order-bottom.png')`
+      },
       animation: {
         'spin-slow': 'spin 20s linear infinite',
       },

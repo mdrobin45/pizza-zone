@@ -41,14 +41,14 @@ const HomeBanner = () =>
                             <img className='pizza1 w-10/12 md:w-full' src={pizza1} alt="Pizza" />
                             <img className='pizza2 absolute' src={pizza2} alt="Pizza" />
                             <img className='pizza3 absolute' src={pizza3} alt="Pizza" />
-                            <img className='pizza4 absolute' src={pizza4} alt="Pizza" />
+                            <img className='pizza4 absolute hidden md:block' src={pizza4} alt="Pizza" />
                             <img className='pizza5 absolute' src={pizza5} alt="Pizza" />
                             <img className='pizza6 absolute' src={pizza6} alt="Pizza" />
-                            <img className='pizza7 absolute' src={pizza7} alt="Pizza" />
+                            <img className='pizza7 absolute hidden md:block' src={pizza7} alt="Pizza" />
                         </div>
                         <div>
                             <h1 className='text-6xl text-center md:text-left md:text-9xl font-bold uppercase text-white'>Quality <span className='visible md:hidden'>F<span className='text-primary'>oo</span>ds</span></h1>
-                            <h1 className='text-4xl md:visible hidden text-center md:text-left md:text-9xl font-bold uppercase text-white pt-6'>F<span className='text-primary'>oo</span>ds</h1>
+                            <h1 className='text-4xl hidden md:block text-center md:text-left md:text-9xl font-bold uppercase text-white pt-6'>F<span className='text-primary'>oo</span>ds</h1>
                             <p className='text-3xl text-center md:text-left tracking-widest pt-6 text-primary'>Healthy Food For Healthy <br className='hidden md:visible'/> Body</p>
                         </div>
                     </div>
@@ -56,7 +56,7 @@ const HomeBanner = () =>
 
                 {/* Slide-2 */}
                 <div>
-                    <div className='flex bg-black py-20 justify-around'>
+                    <div className='md:flex bg-black py-20 justify-around'>
                         <div>
                             <h1 className='text-9xl font-bold uppercase text-white'>Quality</h1>
                             <h1 className='text-9xl font-bold uppercase text-white pt-6'>F<span className='text-primary'>oo</span>ds</h1>

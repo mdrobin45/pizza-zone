@@ -31,11 +31,11 @@ const NavBar = () =>
             {/* Mobile menu */}
             <nav style={{transform:`${toggle===false?'translateX(-100%)':'translateX(0)'}`,transition:'0.4s'}} className='h-full absolute md:hidden mobileMenu'>
                 <div className='menu'>
-                    <Link onClick={()=>setToggle(toggle===false?true:false)} className='isActive block border-b-2 border-gray-700 text-white p-3' to='/'>Home</Link>
-                    <Link onClick={()=>setToggle(toggle===false?true:false)} className='p-3 border-gray-700 border-b-2 block text-white' to='/about'>About</Link>
-                    <Link onClick={()=>setToggle(toggle===false?true:false)} className='p-3 border-gray-700 border-b-2 block text-white' to='/shop'>Shop</Link>
-                    <Link onClick={()=>setToggle(toggle===false?true:false)} className='p-3 border-gray-700 border-b-2 block text-white' to='/blog'>Blog</Link>
-                    <Link onClick={()=>setToggle(toggle===false?true:false)} className='p-3 border-gray-700 border-b-2 block text-white' to='/contact'>Contact</Link>
+                    <Link onClick={()=>setToggle(toggle===false?true:false)} className='isActive block border-b-2 border-white text-white p-3' to='/'>Home</Link>
+                    <Link onClick={()=>setToggle(toggle===false?true:false)} className='p-3 border-white border-b-2 block text-white' to='/about'>About</Link>
+                    <Link onClick={()=>setToggle(toggle===false?true:false)} className='p-3 border-white border-b-2 block text-white' to='/shop'>Shop</Link>
+                    <Link onClick={()=>setToggle(toggle===false?true:false)} className='p-3 border-white border-b-2 block text-white' to='/blog'>Blog</Link>
+                    <Link onClick={()=>setToggle(toggle===false?true:false)} className='p-3 border-white border-b-2 block text-white' to='/contact'>Contact</Link>
                 </div>
             </nav>
         </div>

@@ -39,6 +39,10 @@ img.pizza5.absolute {
         top: 21px;
         right: -15px;
     }
+    img.pizza2.absolute {
+        top: 5px;
+        left: 0px;
+    }
     img.pizza3.absolute {
         bottom: -12px;
         left: 40px;

@@ -1,0 +1,170 @@
+[
+    {
+        "id": "01",
+        "name": "PANEER MAKHANI PIZZA",
+        "price": {
+            "regPrice": "30.50",
+            "sellPrice": "20.50"
+        },
+        "description": {
+            "shortDescription": "Pizza is sold fresh or frozen, and whole or in portion-size slices. Methods have been developed to overcome challenges such as preventing the sauce from combining with the dough.",
+            "longDescription": "What to do when your 8-year old nephew comes to visit? Make pizza, of course! Well, not of course, actually. I didn't think of it until we exhausted Sorry, Monopoly, and gin rummy. But it did turn out to be a brilliant idea as my father had just received a baking stone for Christmas, and my nephew loves pizza.I told him if he helped me make it I would talk about him on my website and he would be famous. That seemed to get his attention. He thought the dough was but he loved picking his own toppings, and the finished product was awesome"
+        },
+        "image": "https://i.ibb.co/pWpzDC8/p-1.png",
+        "category": "drink"
+    },
+    {
+        "id": "02",
+        "name": "PANEER MAKHANI PIZZA",
+        "price": {
+            "regPrice": "30.50",
+            "sellPrice": "20.50"
+        },
+        "description": {
+            "shortDescription": "Pizza is sold fresh or frozen, and whole or in portion-size slices. Methods have been developed to overcome challenges such as preventing the sauce from combining with the dough.",
+            "longDescription": "What to do when your 8-year old nephew comes to visit? Make pizza, of course! Well, not of course, actually. I didn't think of it until we exhausted Sorry, Monopoly, and gin rummy. But it did turn out to be a brilliant idea as my father had just received a baking stone for Christmas, and my nephew loves pizza.I told him if he helped me make it I would talk about him on my website and he would be famous. That seemed to get his attention. He thought the dough was but he loved picking his own toppings, and the finished product was awesome"
+        },
+        "image": "https://i.ibb.co/pWpzDC8/p-1.png",
+        "category": "drink"
+    },
+    {
+        "id": "03",
+        "name": "PANEER MAKHANI PIZZA",
+        "price": {
+            "regPrice": "30.50",
+            "sellPrice": "20.50"
+        },
+        "description": {
+            "shortDescription": "Pizza is sold fresh or frozen, and whole or in portion-size slices. Methods have been developed to overcome challenges such as preventing the sauce from combining with the dough.",
+            "longDescription": "What to do when your 8-year old nephew comes to visit? Make pizza, of course! Well, not of course, actually. I didn't think of it until we exhausted Sorry, Monopoly, and gin rummy. But it did turn out to be a brilliant idea as my father had just received a baking stone for Christmas, and my nephew loves pizza.I told him if he helped me make it I would talk about him on my website and he would be famous. That seemed to get his attention. He thought the dough was but he loved picking his own toppings, and the finished product was awesome"
+        },
+        "image": "https://i.ibb.co/pWpzDC8/p-1.png",
+        "category": "salad"
+    },
+    {
+        "id": "04",
+        "name": "PANEER MAKHANI PIZZA",
+        "price": {
+            "regPrice": "30.50",
+            "sellPrice": "20.50"
+        },
+        "description": {
+            "shortDescription": "Pizza is sold fresh or frozen, and whole or in portion-size slices. Methods have been developed to overcome challenges such as preventing the sauce from combining with the dough.",
+            "longDescription": "What to do when your 8-year old nephew comes to visit? Make pizza, of course! Well, not of course, actually. I didn't think of it until we exhausted Sorry, Monopoly, and gin rummy. But it did turn out to be a brilliant idea as my father had just received a baking stone for Christmas, and my nephew loves pizza.I told him if he helped me make it I would talk about him on my website and he would be famous. That seemed to get his attention. He thought the dough was but he loved picking his own toppings, and the finished product was awesome"
+        },
+        "image": "https://i.ibb.co/pWpzDC8/p-1.png",
+        "category": "salad"
+    },
+    {
+        "id": "05",
+        "name": "PANEER MAKHANI PIZZA",
+        "price": {
+            "regPrice": "30.50",
+            "sellPrice": "20.50"
+        },
+        "description": {
+            "shortDescription": "Pizza is sold fresh or frozen, and whole or in portion-size slices. Methods have been developed to overcome challenges such as preventing the sauce from combining with the dough.",
+            "longDescription": "What to do when your 8-year old nephew comes to visit? Make pizza, of course! Well, not of course, actually. I didn't think of it until we exhausted Sorry, Monopoly, and gin rummy. But it did turn out to be a brilliant idea as my father had just received a baking stone for Christmas, and my nephew loves pizza.I told him if he helped me make it I would talk about him on my website and he would be famous. That seemed to get his attention. He thought the dough was but he loved picking his own toppings, and the finished product was awesome"
+        },
+        "image": "https://i.ibb.co/pWpzDC8/p-1.png",
+        "category": "salad"
+    },
+    {
+        "id": "06",
+        "name": "PANEER MAKHANI PIZZA",
+        "price": {
+            "regPrice": "30.50",
+            "sellPrice": "20.50"
+        },
+        "description": {
+            "shortDescription": "Pizza is sold fresh or frozen, and whole or in portion-size slices. Methods have been developed to overcome challenges such as preventing the sauce from combining with the dough.",
+            "longDescription": "What to do when your 8-year old nephew comes to visit? Make pizza, of course! Well, not of course, actually. I didn't think of it until we exhausted Sorry, Monopoly, and gin rummy. But it did turn out to be a brilliant idea as my father had just received a baking stone for Christmas, and my nephew loves pizza.I told him if he helped me make it I would talk about him on my website and he would be famous. That seemed to get his attention. He thought the dough was but he loved picking his own toppings, and the finished product was awesome"
+        },
+        "image": "https://i.ibb.co/pWpzDC8/p-1.png",
+        "category": "pasta"
+    },
+    {
+        "id": "07",
+        "name": "PANEER MAKHANI PIZZA",
+        "price": {
+            "regPrice": "30.50",
+            "sellPrice": "20.50"
+        },
+        "description": {
+            "shortDescription": "Pizza is sold fresh or frozen, and whole or in portion-size slices. Methods have been developed to overcome challenges such as preventing the sauce from combining with the dough.",
+            "longDescription": "What to do when your 8-year old nephew comes to visit? Make pizza, of course! Well, not of course, actually. I didn't think of it until we exhausted Sorry, Monopoly, and gin rummy. But it did turn out to be a brilliant idea as my father had just received a baking stone for Christmas, and my nephew loves pizza.I told him if he helped me make it I would talk about him on my website and he would be famous. That seemed to get his attention. He thought the dough was but he loved picking his own toppings, and the finished product was awesome"
+        },
+        "image": "https://i.ibb.co/pWpzDC8/p-1.png",
+        "category": "burgers"
+    },
+    {
+        "id": "08",
+        "name": "PANEER MAKHANI PIZZA",
+        "price": {
+            "regPrice": "30.50",
+            "sellPrice": "20.50"
+        },
+        "description": {
+            "shortDescription": "Pizza is sold fresh or frozen, and whole or in portion-size slices. Methods have been developed to overcome challenges such as preventing the sauce from combining with the dough.",
+            "longDescription": "What to do when your 8-year old nephew comes to visit? Make pizza, of course! Well, not of course, actually. I didn't think of it until we exhausted Sorry, Monopoly, and gin rummy. But it did turn out to be a brilliant idea as my father had just received a baking stone for Christmas, and my nephew loves pizza.I told him if he helped me make it I would talk about him on my website and he would be famous. That seemed to get his attention. He thought the dough was but he loved picking his own toppings, and the finished product was awesome"
+        },
+        "image": "https://i.ibb.co/pWpzDC8/p-1.png",
+        "category": "burgers"
+    },
+    {
+        "id": "09",
+        "name": "PANEER MAKHANI PIZZA",
+        "price": {
+            "regPrice": "30.50",
+            "sellPrice": "20.50"
+        },
+        "description": {
+            "shortDescription": "Pizza is sold fresh or frozen, and whole or in portion-size slices. Methods have been developed to overcome challenges such as preventing the sauce from combining with the dough.",
+            "longDescription": "What to do when your 8-year old nephew comes to visit? Make pizza, of course! Well, not of course, actually. I didn't think of it until we exhausted Sorry, Monopoly, and gin rummy. But it did turn out to be a brilliant idea as my father had just received a baking stone for Christmas, and my nephew loves pizza.I told him if he helped me make it I would talk about him on my website and he would be famous. That seemed to get his attention. He thought the dough was but he loved picking his own toppings, and the finished product was awesome"
+        },
+        "image": "https://i.ibb.co/pWpzDC8/p-1.png",
+        "category": "burgers"
+    },
+    {
+        "id": "10",
+        "name": "PANEER MAKHANI PIZZA",
+        "price": {
+            "regPrice": "30.50",
+            "sellPrice": "20.50"
+        },
+        "description": {
+            "shortDescription": "Pizza is sold fresh or frozen, and whole or in portion-size slices. Methods have been developed to overcome challenges such as preventing the sauce from combining with the dough.",
+            "longDescription": "What to do when your 8-year old nephew comes to visit? Make pizza, of course! Well, not of course, actually. I didn't think of it until we exhausted Sorry, Monopoly, and gin rummy. But it did turn out to be a brilliant idea as my father had just received a baking stone for Christmas, and my nephew loves pizza.I told him if he helped me make it I would talk about him on my website and he would be famous. That seemed to get his attention. He thought the dough was but he loved picking his own toppings, and the finished product was awesome"
+        },
+        "image": "https://i.ibb.co/pWpzDC8/p-1.png",
+        "category": "burgers"
+    },
+    {
+        "id": "11",
+        "name": "PANEER MAKHANI PIZZA",
+        "price": {
+            "regPrice": "30.50",
+            "sellPrice": "20.50"
+        },
+        "description": {
+            "shortDescription": "Pizza is sold fresh or frozen, and whole or in portion-size slices. Methods have been developed to overcome challenges such as preventing the sauce from combining with the dough.",
+            "longDescription": "What to do when your 8-year old nephew comes to visit? Make pizza, of course! Well, not of course, actually. I didn't think of it until we exhausted Sorry, Monopoly, and gin rummy. But it did turn out to be a brilliant idea as my father had just received a baking stone for Christmas, and my nephew loves pizza.I told him if he helped me make it I would talk about him on my website and he would be famous. That seemed to get his attention. He thought the dough was but he loved picking his own toppings, and the finished product was awesome"
+        },
+        "image": "https://i.ibb.co/pWpzDC8/p-1.png",
+        "category": "deserts"
+    },
+    {
+        "id": "12",
+        "name": "PANEER MAKHANI PIZZA",
+        "price": {
+            "regPrice": "30.50",
+            "sellPrice": "20.50"
+        },
+        "description": {
+            "shortDescription": "Pizza is sold fresh or frozen, and whole or in portion-size slices. Methods have been developed to overcome challenges such as preventing the sauce from combining with the dough.",
+            "longDescription": "What to do when your 8-year old nephew comes to visit? Make pizza, of course! Well, not of course, actually. I didn't think of it until we exhausted Sorry, Monopoly, and gin rummy. But it did turn out to be a brilliant idea as my father had just received a baking stone for Christmas, and my nephew loves pizza.I told him if he helped me make it I would talk about him on my website and he would be famous. That seemed to get his attention. He thought the dough was but he loved picking his own toppings, and the finished product was awesome"
+        },
+        "image": "https://i.ibb.co/pWpzDC8/p-1.png",
+        "category": "pizza"
+    }
+]

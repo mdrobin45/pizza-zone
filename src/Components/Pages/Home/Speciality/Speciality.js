@@ -46,7 +46,7 @@ const Speciality = () =>
                     </Link>)
                 }
             </div>
-            <Button isCenter='true' margin='16' btnText='View More' btnUrl='/'/>
+            <Button isCenter='true' margin='6' btnText='View More' btnUrl='/'/>
         </div>
     );
 };

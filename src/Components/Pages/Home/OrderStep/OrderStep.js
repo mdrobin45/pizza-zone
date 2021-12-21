@@ -50,7 +50,7 @@ const SingleStep = (stepData) =>
     return (
         <div className='w-full md:w-1/3 px-6 mt-10 md:mt-0'>
             <img className='w-1/3 m-auto' src={img} alt="Step" />
-            <h2 className='text-4xl pt-3 font-bold'>{title}</h2>
+            <h2 className='text-3xl tracking-wide pt-3 font-bold'>{title}</h2>
             <p className='text-lg pt-3'>{details}</p>
         </div>
     )

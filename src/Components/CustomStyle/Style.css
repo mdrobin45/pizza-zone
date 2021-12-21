@@ -52,3 +52,6 @@ img.pizza5.absolute {
         right: 15px;
     }
 }
+.specialityImage:hover{
+    transform: scale(1.1);
+}

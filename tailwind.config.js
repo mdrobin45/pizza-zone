@@ -3,7 +3,8 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     letterSpacing: {
-      widest:'0.5rem'
+      widest: '0.5rem',
+      wider:'0.1rem'
     },
     container: {
       padding:'2rem'
@@ -18,6 +19,9 @@ module.exports = {
       },
       colors: {
         primary:'#FD9D3E'
+      },
+      fontFamily: {
+        secondary:"'Pacifico', cursive"
       }
     },
   },

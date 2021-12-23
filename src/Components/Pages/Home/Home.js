@@ -1,4 +1,5 @@
 import React from 'react';
+import BookOnline from './BookOnline/BookOnline';
 import HomeBanner from './HomeBanner/HomeBanner';
 import OrderStep from './OrderStep/OrderStep';
 import Speciality from './Speciality/Speciality';
@@ -10,7 +11,8 @@ const Home = () => {
             <HomeBanner />
             <OrderStep />
             <Speciality />
-            <SpecialMenu/>
+            <SpecialMenu />
+            <BookOnline/>
         </div>
     );
 };

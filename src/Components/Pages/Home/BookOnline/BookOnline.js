@@ -1,13 +1,39 @@
 import React from 'react';
-import { useForm } from "react-hook-form";
+import { Controller, useForm } from "react-hook-form";
 import SectionHeader from '../../../SectionHeader/SectionHeader';
 import CallIcon from '../../../../images/online-call.png'
 import '../../../CustomStyle/Style.css'
+import Select from 'react-select'
 
 const BookOnline = () =>
 {
-    const { register, handleSubmit } = useForm();
+    const { register, handleSubmit,control } = useForm();
     const onSubmit = data => console.log(data);
+
+    // Select options
+    const options = [
+        { value: 'chocolate', label: 'Chocolate' },
+        { value: 'strawberry', label: 'Strawberry' },
+        { value: 'vanilla', label: 'Vanilla' }
+    ]
+    
+    // Form custom style
+    const customStyle = {
+        control: (provided, state) => ({
+            ...provided,
+            display: 'flex',
+            borderRadius: '5px',
+            outline:'none',
+            border: state.isFocused ? '2px solid orange' : '2px solid rgb(204 204 204)',
+            boxShadow:state.isFocused?'0 0 0 1px #orange':'none'
+        }),
+        option: (provided, state) => ({
+            cursor: 'pointer',
+            padding:'10px',
+            // backgroundColor:state.isSelected?'orange':'transparent',
+            backgroundColor:state.isFocused?'rgb(255 165 0 / 46%)':'transparent'
+        })
+    }
     return (
         <div className='flex container'>
             <div className='w-2/4'>
@@ -29,10 +55,30 @@ const BookOnline = () =>
                 
             </div>
             <div className='w-2/4'>
-            <form onSubmit={handleSubmit(onSubmit)}>
-                <input {...register("name",{required:true})} type='text' placeholder='Name'/>
-                <input {...register("email", { required: true })} placeholder='Email' type='email'/>
-                <input type="submit" />
+                <form onSubmit={handleSubmit(onSubmit)}>
+                <div>
+                    <input {...register("name",{required:true})} type='text' placeholder='Name'/>   
+                </div>
+                <div>
+                    <input {...register("email", { required: true })} placeholder='Email' type='email'/>
+                </div>
+                <div>
+                    <Controller
+                        name='person'
+                        control={control}
+                        render={({ field }) => (
+                            <Select
+                                onChange={(optValue) => field.onChange(optValue.value)}
+                                options={options}
+                                selected={field}
+                                styles={customStyle}
+                            />
+                        )}
+                    /> 
+                </div>
+                <div>
+                    <input type="submit" />  
+                </div>
             </form>
             </div>
         </div>

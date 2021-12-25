@@ -74,3 +74,6 @@ img.pizza5.absolute {
     0%{transform: scale(1.0)}
     100%{transform: scale(1.05)}
 }
+.css-ovdb4m-control:hover{
+    border-color: orange !important;
+}

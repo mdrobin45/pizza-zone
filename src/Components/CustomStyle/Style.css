@@ -25,13 +25,13 @@ img.pizza5.absolute {
     position: absolute;
     top: 50%;
     cursor: pointer;
-    right: 15px;
+    right: 0;
 }
 .prevArrow {
     position: absolute;
     top: 50%;
     cursor: pointer;
-    left: 15px;
+    left: 0;
     transform: rotate(180deg);
 }
 @media screen and (max-width:576px) {

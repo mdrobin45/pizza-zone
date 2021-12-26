@@ -1,4 +1,5 @@
 import React from 'react';
+import BestChef from './BestChef/BestChef';
 import BookOnline from './BookOnline/BookOnline';
 import HomeBanner from './HomeBanner/HomeBanner';
 import OrderStep from './OrderStep/OrderStep';
@@ -12,7 +13,8 @@ const Home = () => {
             <OrderStep />
             <Speciality />
             <SpecialMenu />
-            <BookOnline/>
+            <BookOnline />
+            <BestChef/>
         </div>
     );
 };

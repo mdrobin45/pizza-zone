@@ -77,3 +77,21 @@ img.pizza5.absolute {
 .css-ovdb4m-control:hover{
     border-color: orange !important;
 }
+
+.chefImageBox::before {
+    content: '';
+    position: absolute;
+    background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+    top: 0;
+    left: -80%;
+    transform: skew( 
+-30deg);
+    width: 50%;
+    height: 100%;
+}
+.chefImageBox:hover::before {
+    animation: shine 0.75s;
+}
+@keyframes shine{
+    100%{left: 125%;}
+}

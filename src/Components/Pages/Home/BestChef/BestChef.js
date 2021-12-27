@@ -62,7 +62,9 @@ const SinglePerson = ({person}) =>
     const { name, expertOn, image } = person;
     return (
         <div className='text-center pb-3 mx-3 rounded bg-white'>
-            <img className='m-auto w-full rounded' src={image} alt="Chef" />
+            <div className='chefImageBox relative'>
+                <img className='m-auto w-full rounded' src={image} alt="Chef" />
+            </div>
             <div className='hover:text-primary py-3 transition-all text-center'>
                 <h2 className='text-2xl'>{name}</h2>
                 <p>{expertOn}</p>

@@ -6,6 +6,7 @@ import LatestNews from './LatestNews/LatestNews';
 import OrderStep from './OrderStep/OrderStep';
 import Speciality from './Speciality/Speciality';
 import SpecialMenu from './SpecialMenu/SpecialMenu';
+import Testimonial from './Testimonial/Testimonial';
 
 const Home = () => {
     return (
@@ -16,7 +17,8 @@ const Home = () => {
             <SpecialMenu />
             <BookOnline />
             <BestChef />
-            <LatestNews/>
+            <LatestNews />
+            <Testimonial/>
         </div>
     );
 };

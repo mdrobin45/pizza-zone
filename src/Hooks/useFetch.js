@@ -5,6 +5,7 @@ const useFetch = () =>
     const [pizzas, setPizzas] = useState([]);
     const [chef, setChef] = useState([]);
     const [news, setNews] = useState([]);
+    const [testimonial, setTestimonial] = useState([]);
 
     // Fetch all pizzas
     useEffect(() =>
@@ -30,7 +31,15 @@ const useFetch = () =>
             .then(res => res.json())
             .then(data => setNews(data));
     }, [])
+
+    // Fetch testimonial
+    useEffect(() =>
+    {
+        fetch('/CustomerTestimonial.JSON')
+            .then(res => res.json())
+            .then(data => setTestimonial(data));
+    },[])
     
-    return {pizzas,chef,news}
+    return {pizzas,chef,news,testimonial}
 };
 export default useFetch;

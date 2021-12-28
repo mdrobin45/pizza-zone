@@ -95,3 +95,15 @@ img.pizza5.absolute {
 @keyframes shine{
     100%{left: 125%;}
 }
+.customerQuote::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 37%;
+    background: rgb(255 255 255);
+    transform: rotate(
+45deg);
+    left: -10px;
+    display: block;
+}

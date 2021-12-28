@@ -1,4 +1,5 @@
 import React from 'react';
+import AboutPizzon from './AboutPizzon/AboutPizzon';
 import BestChef from './BestChef/BestChef';
 import BookOnline from './BookOnline/BookOnline';
 import HomeBanner from './HomeBanner/HomeBanner';
@@ -18,7 +19,8 @@ const Home = () => {
             <BookOnline />
             <BestChef />
             <LatestNews />
-            <Testimonial/>
+            <Testimonial />
+            <AboutPizzon/>
         </div>
     );
 };

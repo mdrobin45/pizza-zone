@@ -6,8 +6,8 @@ import aboutPizzaImg from '../../../../images/about-pizzon.png'
 const AboutPizzon = () =>
 {
     return (
-        <div className='container flex items-center justify-between'>
-            <div className='w-1/2'>
+        <div className='container mt-6 md:mt-0 md:flex items-center justify-between'>
+            <div className='md:w-1/2'>
                 <SectionHeader
                     title='ABOUT PIZZON'
                     subTitle='Delicious Restaurant'
@@ -16,7 +16,7 @@ const AboutPizzon = () =>
                 <Button btnText='View More' btnUrl='/'/>
             </div>
             <div>
-                <img className='-mt-24' src={aboutPizzaImg} alt="About Pizza Thumbnail" />
+                <img className='md:-mt-24 mt-10' src={aboutPizzaImg} alt="About Pizza Thumbnail" />
             </div>
         </div>
     );

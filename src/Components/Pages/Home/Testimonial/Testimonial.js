@@ -51,12 +51,12 @@ const SingleTestimonial = ({item}) =>
 {
     const { customerName, customerTitle, customerImage, quote } = item;
     return (
-        <div className='text-white flex items-center'>
-            <div className='w-1/4 text-center pr-10'>
+        <div className='text-white md:flex items-center'>
+            <div className='md:w-1/4 text-center md:pr-10'>
                 <img className='m-auto' src={customerImage} alt="Customer Profile" />
                 <h2 className='text-2xl pt-3'>{customerName}</h2>
             </div>
-            <div className='bg-white relative px-3 py-6 text-black customerQuote'>
+            <div className='bg-white mt-6 md:mt-0 rounded relative px-3 py-6 text-black customerQuote'>
                 <p className='text-lg text-gray-600'>{quote}</p>
                 <p className='text-primary'><span className='text-lg'>{customerName}</span> - {customerTitle}</p>
             </div>

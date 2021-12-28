@@ -13,7 +13,6 @@ const SpecialMenu = () =>
     const { pizzas } = useFetch();
     const selectedItem=pizzas?.filter(pizza=>pizza.category===tabItems)
 
-    console.log(selectedItem);
     return (
         <div className='mt-10'>
             <div className='bg-black w-full'>
@@ -27,7 +26,7 @@ const SpecialMenu = () =>
                     isCenter="true"
                 />
                 <div className='text-center mt-10'>
-                    <span className='bg-gray-700 inline-block rounded-full relative'>
+                    <span className='inline-grid md:inline-block bg-gray-700 inline-block rounded-full relative'>
                         <button onClick={()=>{setIsActive(0);setTabItems('all')}} className={`uppercase z-10 text-white px-6 py-3 mr-3 rounded-full ${isActive===0?'bg-primary transition-all':''}`}>ALL</button>
                         <button onClick={()=>{setIsActive(1);setTabItems('drink')}} className={`uppercase z-10 text-white px-6 py-3 mx-3 rounded-full ${isActive===1?'bg-primary transition-all':''}`}>DRINKS</button>
                         <button onClick={()=>{setIsActive(2);setTabItems('salad')}} className={`uppercase z-10 text-white px-6 py-3 mx-3 rounded-full ${isActive===2?'bg-primary transition-all':''}`}>SALADS</button>
@@ -37,7 +36,7 @@ const SpecialMenu = () =>
                         <button onClick={()=>{setIsActive(6);setTabItems('pizza')}} className={`uppercase z-10 text-white px-6 py-3 ml-3 rounded-full ${isActive===6?'bg-primary transition-all':''}`}>PIZZAS</button>
                     </span>
                 </div>
-                <div className='grid grid-cols-4 gap-4'>
+                <div className='md:grid grid-cols-4 gap-4'>
                     {
                         tabItems !== 'all' ? selectedItem?.map(pizza =><SinglePizza key={pizza.id} pizza={pizza}/>) : pizzas?.map(pizza =><SinglePizza key={pizza.id} pizza={pizza}/>) 
                     }

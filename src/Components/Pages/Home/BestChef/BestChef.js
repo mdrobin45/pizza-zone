@@ -24,7 +24,16 @@ const BestChef = () =>
         speed: 500,
         slidesToShow: 4,
         autoplay: true,
-        arrows:false
+        arrows: false,
+        responsive: [
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    arrows:true
+                }
+            }
+        ]
       };
     return (
         <>

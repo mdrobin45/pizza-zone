@@ -36,8 +36,8 @@ const BookOnline = () =>
         })
     }
     return (
-        <div className='flex py-20 items-center container'>
-            <div className='w-2/4 pr-4'>
+        <div className='md:flex py-20 items-center container'>
+            <div className='md:w-2/4 md:pr-4'>
                 <SectionHeader
                     title='BOOK ONLINE'
                     subTitle='Fresh From Pizzon'
@@ -55,7 +55,7 @@ const BookOnline = () =>
                 </a>
                 
             </div>
-            <div className='w-2/4 pl-4'>
+            <div className='md:pl-4 md:pt-0 md:w-2/4 pt-10'>
                 <h2 className='text-4xl pb-6 font-bold text-center'>Book Table</h2>
                 <form onSubmit={handleSubmit(onSubmit)}>
                     <div>

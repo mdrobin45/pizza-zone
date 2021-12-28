@@ -107,3 +107,9 @@ img.pizza5.absolute {
     left: -10px;
     display: block;
 }
+@media screen and (max-width:480px) {
+    .customerQuote::before{
+        top:-9px;
+        left: 46%;
+    }
+}

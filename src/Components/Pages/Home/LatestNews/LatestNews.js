@@ -6,7 +6,6 @@ import SectionHeader from '../../../SectionHeader/SectionHeader';
 const LatestNews = () =>
 {
     const { news } = useFetch();
-    console.log(news);
     return (
         <div className='py-20'>
             <SectionHeader
@@ -14,7 +13,7 @@ const LatestNews = () =>
                 subTitle='Recent Events'
                 isCenter='true'
             />
-            <div className='container grid grid-cols-3 gap-4'>
+            <div className='container gap-4 grid-cols-3 md:grid md:mt-0 mt-6'>
                 {
                     news?.map(item=><NewsCard key={item.id} item={item}/>)
                 }
@@ -29,7 +28,7 @@ const NewsCard = ({item}) =>
 {
     const { title, publishDate, author, comments, thumbnail } = item;
     return (
-        <div>
+        <div className='md:my-0 my-6'>
             <div className='relative'>
                 <Link to='/'>
                     <img className='w-full' src={thumbnail} alt="Thumbnail" />

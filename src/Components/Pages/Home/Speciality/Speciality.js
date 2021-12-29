@@ -34,7 +34,7 @@ const Speciality = () =>
                 title='OUR SPECIALITY'
                 subTitle='Fresh From Pizzon'
             />
-            <div className='flex item-center text-center'>
+            <div className='md:flex item-center text-center'>
                 {
                     speciality.map(data => <Link to='/' key={data.id}>
                         <div className='p-6'>

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css'
+import logo from '../../../images/footer-logo.png'
 
 const NavBar = () =>
 {
@@ -10,7 +11,10 @@ const NavBar = () =>
         <div className='navMain'>
             <div className='container'>
                 <nav className='flex justify-between'>
-                    <h1 className='text-3xl font-bold text-white'>Logo</h1>
+                    <Link to='/'>
+                        <img src={logo} alt="Logo" />
+                    </Link>
+                    
 
                     <div className='hidden md:block menu '>
                         <Link className='isActive mx-2 text-white p-3' to='/'>Home</Link>
